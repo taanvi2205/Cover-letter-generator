@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(1, 1, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+input, textarea{
+    width: -webkit-fill-available;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid rgb(1, 1, 40);
+    border-radius: 8px;
+    background-color: rgb(1, 1, 40);
+    color: aliceblue;
+}
+
+button{
+    background-color: rgb(1, 1, 40);
+    color: aliceblue;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.hidden{
+    display: none;
+}
+
+#job_desc{
+    min-height: 100px;
+}
+
+#cover_letter{
+    min-height: 200px;
+}
