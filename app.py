@@ -57,7 +57,7 @@ def index():
             return jsonify({'cover_letter': cover_letter})
 
         except Exception as e:
-            print("🔥 SERVER ERROR:", str(e))
+            print("SERVER ERROR:", str(e))
             return jsonify({'error': str(e)}), 500
 
     return render_template('index.html')
